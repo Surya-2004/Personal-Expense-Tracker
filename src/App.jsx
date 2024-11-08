@@ -25,7 +25,7 @@ function App() {
       
       <div className="mt-6 text-lg font-semibold">
         Total Expenditure:{" "}
-        <span className="text-green-400">${totalExpenditure}</span>
+        <span className="text-green-400">₹{totalExpenditure}</span>
       </div>
       
       <div className="mt-4">

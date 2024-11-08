@@ -5,7 +5,7 @@ function ExpenseItem({ expense }) {
         <p className="font-semibold text-white">{expense.description}</p>
         <p className="text-sm text-gray-400">Category: {expense.category}</p>
       </div>
-      <div className="text-green-400 font-semibold text-lg">{`$${expense.amount}`}</div>
+      <div className="text-green-400 font-semibold text-lg">{`₹${expense.amount}`}</div>
     </div>
   );
 }
